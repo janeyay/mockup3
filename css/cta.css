@@ -1,0 +1,83 @@
+.cta-section {
+    background: #0D2769;
+    color: #fff;
+    padding-bottom:0px;
+    padding-top: 50px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+  }
+  .cta-section .cta-overlay{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: url(../images/v915-wit-011.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      top: 0px;
+      left: 0px;
+      opacity: 50%;
+  }
+
+  .cta-section .cta-text h5 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffffcc;
+  }
+
+  .cta-section .cta-text h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    margin: 20px 0;
+  }
+
+  .cta-section .cta-text p {
+    color: #e0e0e0;
+    font-size: 18px;
+    text-align: center !important;
+  }
+
+  .cta-section .cta-button {
+    background-color: #0a1d60;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-weight: 500;
+    border-radius: 15px;
+    margin-top: 20px;
+    transition: background 0.3s ease-in-out;
+  }
+
+  .cta-section .cta-button:hover {
+    background-color: #142b82;
+  }
+
+  .cta-section .cta-image {
+    max-width: 100%;
+    height: auto;
+  }
+  .cta-section .cta-text {
+      align-items: center !important;
+      text-align: center !important;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-top: 80px;
+
+    }
+
+  @media (max-width: 767px) {
+      .cta-section .cta-text h1 {
+      font-size: 1.6rem;
+    }
+
+    .cta-section {
+      text-align: center;
+    }
+
+    .cta-section .cta-text {
+      align-items: center;
+    }
+  }

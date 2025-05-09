@@ -1,0 +1,117 @@
+.navbar {
+    background-color: #fff;
+    padding:20px 80px;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #262e62;
+  }
+
+  .nav-link {
+    color: #262e62 !important;
+    margin-right: 20px;
+    font-weight: 500;
+  }
+
+  .nav-link:hover {
+    color: #0041b3 !important;
+  }
+
+  .btn-login, .btn-register {
+    border-radius: 0;
+    font-weight: 500;
+  }
+
+  .hero-section {
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-section .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+  }
+
+  .hero-section .hero-text {
+    z-index: 2;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #262e62;
+  }
+
+  .hero-section p {
+    color: #333;
+    font-size: 1.1rem;
+  }
+
+  .hero-section .circle-bg {
+    background-color: rgba(10, 14, 63, 0.1);
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+  }
+
+  .hero-section .profile-image {
+    border-radius: 50%;
+    overflow: hidden;
+    /* max-width: 500px !important; */
+    width: 700px !important;
+    height: 400px;
+    margin-bottom: -100px;
+  }
+  .hero-section .bottom-image{
+    margin-top: -300px !important;
+    margin-left: -20px;
+    padding-top: 0px !important;
+    width: 1400px;
+    height: 500px;
+  }
+
+  @media (max-width: 768px) {
+      .hero-section h1 {
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    .hero-section p {
+      text-align: center;
+    }
+
+    .hero-section .profile-image {
+      margin: 20px auto;
+    }
+  }
+
+  .navbar .btn-login:hover,
+  .navbar .btn-register:hover {
+    background-color: #001a66;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+  }
+
+  .navbar .btn-login {
+    background-color: #0a0e3f;
+    color: white;
+    margin-right: 10px;
+  }
+
+  .navbar .btn-register {
+    background-color: #0a0e3f;
+    color: white;
+  }
