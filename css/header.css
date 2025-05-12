@@ -68,12 +68,11 @@
   }
 
   .hero-section .profile-image {
-    border-radius: 50%;
     overflow: hidden;
     /* max-width: 500px !important; */
-    width: 700px !important;
-    height: 400px;
-    margin-bottom: -100px;
+    /* width: 700px !important;
+    height: 400px; */
+    /* margin-bottom: -100px; */
   }
   .hero-section .bottom-image{
     margin-top: -300px !important;
@@ -82,22 +81,6 @@
     width: 1400px;
     height: 500px;
   }
-
-  @media (max-width: 768px) {
-      .hero-section h1 {
-      font-size: 2rem;
-      text-align: center;
-    }
-
-    .hero-section p {
-      text-align: center;
-    }
-
-    .hero-section .profile-image {
-      margin: 20px auto;
-    }
-  }
-
   .navbar .btn-login:hover,
   .navbar .btn-register:hover {
     background-color: #001a66;
@@ -115,3 +98,107 @@
     background-color: #0a0e3f;
     color: white;
   }
+
+
+
+  /* @media (min-width: 768px) and (max-width: 991.66px) {
+    .hero-section .bottom-image{
+      width: 1200px;
+      height: auto;
+    }
+  }
+  @media (max-width: 768px) {
+    .hero-section h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .hero-section p {
+    text-align: center;
+  }
+
+  .hero-section .profile-image {
+    margin: 20px auto;
+  }
+  .hero-section .bottom-image{
+    width: 1000px;
+    height: auto;
+  }
+} */
+
+/* Responsive adjustments for small to large devices */
+@media (max-width: 1200px) {
+  .hero-section .bottom-image {
+    width: 1100px;
+    height: auto;
+    margin-top: -200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .hero-section .circle-bg {
+    width: 120px;
+    height: 120px;
+    top: 10px;
+    left: 10px;
+  }
+
+  .hero-section .bottom-image {
+    width: 1000px;
+    height: auto;
+    margin-top: -150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section .hero-text {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .hero-section .profile-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hero-section .bottom-image {
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+  }
+
+  .hero-section .circle-bg {
+    display: none; /* Hide circle on small devices */
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-section p {
+    font-size: 0.95rem;
+  }
+
+  .hero-section .bottom-image {
+    margin-top: -80px;
+  }
+}

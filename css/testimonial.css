@@ -1,0 +1,192 @@
+.testimonial-section {
+    padding: 80px 0;
+    background-color:#0D2769;;
+  }
+  .testimonial-section .testimonial-overlay{
+    background: url('../images/154027-abstract-blue-and-white-background-design.jpg') center center/cover no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+    opacity: 50%;
+  }
+  .testimonial-section .testimonial-title {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 60px;
+    font-size: 36px;
+    color: white;
+  }
+
+  .testimonial-section .testimonial-carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* @media (min-width: 768px) {
+      .testimonial-section .testimonial-carousel .carousel-item {
+      flex-direction: row;
+      justify-content: center;
+      gap: 40px;
+    }
+  } */
+
+  .testimonial-section .testimonial-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .testimonial-section .testimonial-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .testimonial-section .testimonial-content {
+    max-width: 600px;
+    text-align: center;
+  }
+
+  /* @media (min-width: 768px) {
+      .testimonial-section .testimonial-content {
+      text-align: left;
+    }
+  } */
+
+  .testimonial-section .testimonial-date {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .testimonial-section .testimonial-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.7;
+    color: white;
+  }
+
+  .testimonial-section .testimonial-author {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+
+  /* .testimonial-section .carousel-control-prev,
+  .testimonial-section .carousel-control-next {
+    filter: invert(1);
+ 
+  } */
+
+  .testimonial-section .carousel-control-prev-icon,
+  .testimonial-section .carousel-control-next-icon {
+    background-size: 100% 100%;
+  }
+
+  .testimonial-section .carousel-controls {
+    margin-top: 40px;
+    color: white !important;
+  }
+
+  /* Responsive styles for testimonial-section */
+
+@media (max-width: 992px) {
+  .testimonial-section .testimonial-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .testimonial-section .testimonial-img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .testimonial-section .testimonial-content {
+    max-width: 100%;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .testimonial-section .testimonial-text {
+    font-size: 16px;
+  }
+
+  .testimonial-section .testimonial-author {
+    font-size: 18px;
+  }
+
+  .testimonial-section .carousel-controls {
+    margin-top: 30px;
+    width: 90%;
+  }
+  .testimonial-section .carousel-control-prev,
+  .testimonial-section .carousel-control-next {
+    top: 300px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-section .testimonial-title {
+    font-size: 26px;
+  }
+
+  .testimonial-section .testimonial-img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .testimonial-section .testimonial-content {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .testimonial-section .testimonial-text {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .testimonial-section .testimonial-author {
+    font-size: 17px;
+  }
+
+  .testimonial-section .carousel-controls button i {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .testimonial-section {
+    padding: 60px 0;
+  }
+
+  .testimonial-section .testimonial-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .testimonial-section .testimonial-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .testimonial-section .testimonial-text {
+    font-size: 14px;
+  }
+
+  .testimonial-section .testimonial-author {
+    font-size: 16px;
+  }
+
+  .testimonial-section .carousel-controls {
+    margin-top: 20px;
+  }
+}
