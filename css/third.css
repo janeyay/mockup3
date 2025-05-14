@@ -2,7 +2,7 @@
   overflow: hidden;
 }
 .third-section .section-heading {
-    color: #6c7bff;
+    color: #979dcf;
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 24px;
@@ -16,6 +16,9 @@
     margin-bottom: 20px;
   }
 
+  .third-section .row{
+  margin-top: 30px !important;
+  }
   .third-section .service-box {
     text-align: left;
     transition: all 0.3s ease-in-out;
@@ -44,7 +47,7 @@
 
   .third-section .bg-circle {
     position: absolute;
-    display: hidden !important;
+    /* display: hidden !important; */
     border-radius: 50%;
     background-color: rgba(10, 14, 63,0.09);
     z-index: -1;
@@ -60,6 +63,20 @@
   .third-section .bg-right {
     bottom: 30px;
     right: -100px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .circle-item .bg-circle {
+    position: absolute;
+    /* display: hidden !important; */
+    border-radius: 50%;
+    background-color: rgba(10, 14, 63,0.09);
+    z-index: -1;
+  }
+  .circle-item .bg-left {
+    top: -160px;
+    left: -30px;
     width: 250px;
     height: 250px;
   }
