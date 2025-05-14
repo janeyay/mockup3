@@ -92,6 +92,9 @@
 }
 
 @media (max-width: 768px) {
+  .tech-section {
+    margin-top: 50px !important;
+  }
   .tech-section .tech-text h2 {
     font-size: 26px;
   }
@@ -112,7 +115,7 @@
   }
   .tech-section .left-image img{
     width: 200px !important;
-    height: 250px !important;
+    height: 270px !important;
   }
 
   .tech-section .img-custom {
@@ -131,10 +134,11 @@
 
   .tech-section {
     padding: 20px 10px 40px 10px;
+    margin-top: 40px !important;
   }
 
   .tech-section .left-image img {
-    height: 220px !important;
+    height: 270px !important;
   }
 
   .tech-section .img-custom {
